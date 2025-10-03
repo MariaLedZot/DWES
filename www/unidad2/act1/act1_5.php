@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 5: Total de puntos - Dados.
 desc: Dados aleatorios y total de puntos.
-tags: [PHP, basico]
+tags: [PHP, basico, dados, concatenación]
 code: https://github.com/
 ---
 */
