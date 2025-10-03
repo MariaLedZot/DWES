@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 1: Número PI.
 desc: Imprimir 2 dígitos del número PI.
-tags: [PHP, basico]
+tags: [PHP, basico, formato]
 code: https://github.com/
 ---
 */
