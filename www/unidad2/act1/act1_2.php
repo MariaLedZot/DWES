@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 2: Media aritmética.
 desc: Media aritmética de 2 números al azar.
-tags: [PHP, basico]
+tags: [PHP, basico, operadores]
 code: https://github.com/
 ---
 */
