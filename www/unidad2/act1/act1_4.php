@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 4: Porcentaje aleatorio.
 desc: Porcentaje aleatorio con indicador de medida.
-tags: [PHP, basico]
+tags: [PHP, basico, meter]
 code: https://github.com/
 ---
 */
