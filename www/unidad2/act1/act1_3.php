@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 3: Tabla datos.
 desc: Almacenar datos y hacer una tabla.
-tags: [PHP, basico]
+tags: [PHP, basico, tabla]
 code: https://github.com/
 ---
 */
