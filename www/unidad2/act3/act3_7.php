@@ -19,14 +19,26 @@ code: https://github.com/
     <title>Ejercicio 7</title>
 
     <style>
-        
+
     </style>
 </head>
 
 <body>
     <?php
-    
+    $valor1 = rand(1, 6);
+    $valor2 = rand(1, 6);
+
+    echo "<h2>Tirada de dos dados:</h2>";
+    echo "<img src='img/dado$valor1.svg' alt='Dado $valor1' style='width:100px; margin:10px;'>";
+    echo "<img src='img/dado$valor2.svg' alt='Dado $valor2' style='width:100px; margin:10px;'>";
+
+    if ($valor1 == $valor2) {
+        echo "<p>Has sacado una pareja de $valor1.</p>";
+    } else {
+        echo "<p>No has sacado pareja.</p>";
+    }
     ?>
+
 </body>
 
 </html>

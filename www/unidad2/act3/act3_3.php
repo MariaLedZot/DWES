@@ -19,13 +19,28 @@ code: https://github.com/
     <title>Ejercicio 3</title>
 
     <style>
-        
+        body {
+            font-family: times, 'Times New Roman', serif;
+            padding: 1rem;
+            color: #303030ff;
+            font-size: 2rem;
+            font-weight: bold;
+        }
     </style>
 </head>
 
 <body>
     <?php
-    
+    $numero = rand(1, 3);
+
+    $texto = match ($numero) {
+        1 => 'uno',
+        2 => 'dos',
+        3 => 'tres',
+        default => 'DESCONOCIDO',
+    };
+
+    echo "El número generado es $numero y en castellano es: $texto.";
     ?>
 </body>
 

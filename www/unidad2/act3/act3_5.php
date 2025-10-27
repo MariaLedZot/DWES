@@ -19,14 +19,25 @@ code: https://github.com/
     <title>Ejercicio 5</title>
 
     <style>
-        
+
     </style>
 </head>
 
 <body>
     <?php
-    
+    echo "<h2>Suma de los números del 1 al 10</h2>";
+
+    $suma = 0;
+    $i = 1;
+
+    while ($i <= 10) {
+        $suma += $i;
+        $i++;
+    }
+
+    echo "La suma de los números del 1 al 10 es: $suma";
     ?>
+
 </body>
 
 </html>

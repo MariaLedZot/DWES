@@ -19,13 +19,22 @@ code: https://github.com/
     <title>Ejercicio 4</title>
 
     <style>
-        
+
     </style>
 </head>
 
 <body>
     <?php
-    
+    echo "<h2>Números pares del 0 al 10</h2>";
+    echo "<ul>";
+
+    for ($i = 0; $i <= 10; $i++) {
+        if ($i % 2 == 0) {
+            echo "<li>$i</li>";
+        }
+    }
+
+    echo "</ul>";
     ?>
 </body>
 

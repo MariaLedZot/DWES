@@ -19,13 +19,27 @@ code: https://github.com/
     <title>Ejercicio 8</title>
 
     <style>
-        
+
     </style>
 </head>
 
 <body>
     <?php
-    
+    $num_dados = rand(1, 5);
+
+    echo "<h2>Tirada de $num_dados dado(s):</h2>";
+
+    $valores = [];
+
+    for ($i = 0; $i < $num_dados; $i++) {
+        $valor = rand(1, 6);
+        $valores[] = $valor;
+        echo "<img src='img/dado$valor.svg' alt='Dado $valor' style='width:100px; margin:10px;'>";
+    }
+
+    $minimo = min($valores);
+
+    echo "<p>El valor más pequeño obtenido es: <strong>$minimo</strong></p>";
     ?>
 </body>
 

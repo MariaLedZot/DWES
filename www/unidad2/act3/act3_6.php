@@ -19,14 +19,31 @@ code: https://github.com/
     <title>Ejercicio 6</title>
 
     <style>
-        
+
     </style>
 </head>
 
 <body>
     <?php
-    
+    $numero = 7; // Número para generar la tabla
+
+    echo "<h2>Tabla de multiplicar del $numero</h2>";
+    echo "<table border='1' cellspacing='0' cellpadding='8' style='border-collapse: collapse; text-align: center;'>";
+
+    for ($i = 1; $i <= 10; $i++) {
+        $resultado = $numero * $i;
+        echo "<tr>
+            <td>$numero</td>
+            <td>x</td>
+            <td>$i</td>
+            <td>=</td>
+            <td>$resultado</td>
+            </tr>";
+    }
+
+    echo "</table>";
     ?>
+    
 </body>
 
 </html>
