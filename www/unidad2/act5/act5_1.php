@@ -25,7 +25,30 @@ code: https://github.com/
 
     <body>
         <?php
-        
+        $proveedor1 = ["Monitor", "Teclado", "Ratón", "Impresora"];
+        $proveedor2 = ["Altavoces", "Monitor", "Webcam", "Ratón"];
+
+        $productosUnidos = array_merge($proveedor1, $proveedor2);
+        $productosSinDuplicados = array_unique($productosUnidos);
+        sort($productosSinDuplicados);
+
+        echo "<h2>Proveedor 1</h2><ul>";
+        foreach ($proveedor1 as $producto) {
+            echo "<li>$producto</li>";
+        }
+        echo "</ul>";
+
+        echo "<h2>Proveedor 2</h2><ul>";
+        foreach ($proveedor2 as $producto) {
+            echo "<li>$producto</li>";
+        }
+        echo "</ul>";
+
+        echo "<h2>Proveedor 3</h2><ul>";
+        foreach ($productosSinDuplicados as $producto) {
+            echo "<li>$producto</li>";
+        }
+        echo "</ul>";
         ?>
     </body>
 

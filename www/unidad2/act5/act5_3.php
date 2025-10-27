@@ -25,7 +25,28 @@ code: https://github.com/
 
     <body>
         <?php
-        
+        $actividad1 = ["Carlos", "Lucía", "Marcos", "Ana"];
+        $actividad2 = ["Ana", "Pedro", "Lucía", "Javier"];
+
+        $ambas = array_intersect($actividad1, $actividad2);
+
+        echo "<h3>Personas en actividad 1</h3><ul>";
+        foreach ($actividad1 as $persona) {
+            echo "<li>$persona</li>";
+        }
+        echo "</ul>";
+
+        echo "<h3>Personas en actividad 2</h3><ul>";
+        foreach ($actividad2 as $persona) {
+            echo "<li>$persona</li>";
+        }
+        echo "</ul>";
+
+        echo "<h3>Personas en ambas actividades</h3><ul>";
+        foreach ($ambas as $persona) {
+            echo "<li>$persona</li>";
+        }
+        echo "</ul>";
         ?>
     </body>
 
