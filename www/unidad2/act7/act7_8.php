@@ -25,7 +25,17 @@ code: https://github.com/
 
     <body>
         <?php
-        
+        function dividir(float $dividendo, float $divisor = 4): float|string {
+            if ($divisor == 0) {
+                return "Error: División por cero";
+            }
+            return $dividendo / $divisor;
+        }
+
+        echo "<br>La división de 3 entre 4 es: " . dividir(3, 4);
+        echo "<br>La división de 6 entre 0 es: " . dividir(6, 0);
+        echo "<br>La división de 6 entre (valor por defecto, porque no he indicado el divisor) es: " . dividir(6);
+    
         ?>
     </body>
 

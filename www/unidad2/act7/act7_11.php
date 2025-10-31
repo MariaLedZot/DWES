@@ -25,7 +25,27 @@ code: https://github.com/
 
     <body>
         <?php
-        
+        function generaMatrizCartasRand(int $n): array {
+            $palos = ['c', 'd', 'p', 't'];
+            $cartas = [];
+
+            for ($i = 0; $i < $n; $i++) {
+                $palo = $palos[array_rand($palos)];
+                $numero = rand(1, 13);
+                $cartas[] = $palo . $numero;
+            }
+
+            return $cartas;
+        }
+
+        $numCartas = rand(5, 10);
+        $cartas = generaMatrizCartasRand($numCartas);
+
+        echo "<br><br>$numCartas cartas:<br>";
+
+        foreach ($cartas as $carta) {
+            echo "<img src='cartas/{$carta}.svg' alt='{$carta}' width='70' height='100' style='margin:5px;'>";
+        }
         ?>
     </body>
 

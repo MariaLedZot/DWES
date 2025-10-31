@@ -25,7 +25,19 @@ code: https://github.com/
 
     <body>
         <?php
-        
+        function mayor(int ...$nums): int {
+            $mayor = $nums[0];
+            foreach ($nums as $n) {
+                if ($n > $mayor) $mayor = $n;
+            }
+            return $mayor;
+        }
+
+        $numeros = [2, 3, 24, 1];
+        echo "<p>Array</p><pre>";
+        print_r($numeros);
+        echo "</pre>";
+        echo "<p>El número mayor es " . mayor(...$numeros) . "</p>";
         ?>
     </body>
 

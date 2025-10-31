@@ -25,7 +25,18 @@ code: https://github.com/
 
     <body>
         <?php
-        
+        include "act7_6.php";
+
+        $numeros = [10, 5];
+        $funciones = ["sumar", "restar", "multiplicar", "dividir"];
+
+        foreach ($funciones as $func) {
+            $resultado = (function($a, $b) use ($func) {
+                return $func($a, $b);
+            })($numeros[0], $numeros[1]);
+
+            echo "$func: $resultado<br>";
+        }
         ?>
     </body>
 

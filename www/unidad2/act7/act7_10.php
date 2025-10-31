@@ -25,7 +25,14 @@ code: https://github.com/
 
     <body>
         <?php
-        
+        $iva = 0.21;
+
+        $calcularPrecioFinal = fn(float $precio) => $precio * (1 + $iva);
+
+        echo "<br>El IVA es del " . ($iva * 100) . "%<br>";
+        echo "Precio final de 100: " . $calcularPrecioFinal(100) . "<br>";
+        echo "Precio final de 250: " . $calcularPrecioFinal(250) . "<br>";
+        echo "Precio final de 50: " . $calcularPrecioFinal(50) . "<br>";
         ?>
     </body>
 

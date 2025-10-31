@@ -25,7 +25,18 @@ code: https://github.com/
 
     <body>
         <?php
-        
+        function arrayAleatorio(int $tam, int $min, int $max): array {
+            $arr = [];
+            for ($i = 0; $i < $tam; $i++) {
+                $arr[] = rand($min, $max);
+            }
+            return $arr;
+        }
+
+        $resultado = arrayAleatorio(5, 1, 10);
+        echo "<pre>";
+        print_r($resultado);
+        echo "</pre>";
         ?>
     </body>
 

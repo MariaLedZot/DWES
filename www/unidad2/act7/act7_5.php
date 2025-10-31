@@ -25,7 +25,14 @@ code: https://github.com/
 
     <body>
         <?php
-        
+        function digitoN(int $num, int $pos): int {
+            return (int)strval($num)[$pos - 1];
+        }
+
+        $num = 2674;
+        $pos = 3;
+        echo "<p>El número es $num y la posición que pido es la $pos</p>";
+        echo "<p>En esa posición está el " . digitoN($num, $pos) . "</p>";
         ?>
     </body>
 

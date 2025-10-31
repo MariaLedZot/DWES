@@ -25,7 +25,19 @@ code: https://github.com/
 
     <body>
         <?php
-        
+        function arrayMayores(array &$array): array {
+            return array_filter($array, fn($n) => $n > 10);
+        }
+
+        $array = [2, 1, 24, 23];
+        echo "<h3>Array original</h3><pre>";
+        print_r($array);
+        echo "</pre>";
+
+        $filtrado = arrayMayores($array);
+        echo "<h3>Array filtrado</h3><pre>";
+        print_r($filtrado);
+        echo "</pre>";
         ?>
     </body>
 

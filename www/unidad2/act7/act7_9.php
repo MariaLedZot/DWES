@@ -25,7 +25,13 @@ code: https://github.com/
 
     <body>
         <?php
-        
+        function aumentarVisitas(int $visitas): int {
+            return ++$visitas;
+        }
+
+        $visitas = 0;
+        $visitas = aumentarVisitas($visitas);
+        echo "<br>El número de visitas ha aumentado a $visitas";
         ?>
     </body>
 
