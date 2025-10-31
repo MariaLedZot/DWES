@@ -25,7 +25,15 @@ code: https://github.com/
 
     <body>
         <?php
-        
+        echo "<h3>Comentario</h3>";
+
+        $comentario = "Este es mi comentario para soporte técnico.";
+        $longitud = strlen($comentario);
+        $diferencia = 160 - $longitud;
+
+        echo "$comentario <br>";
+        echo "Longitud: <strong>$longitud</strong> caracteres<br>";
+        echo ($diferencia >= 0) ? "Te quedan <strong>$diferencia</strong> caracteres." : "Se excede el límite por " . abs($diferencia) . " caracteres.";
         ?>
     </body>
 

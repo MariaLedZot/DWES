@@ -25,7 +25,25 @@ code: https://github.com/
 
     <body>
         <?php
-        
+        $nombreCompleto = "Ana Maria Lopez Perez";
+        $partes = explode(" ", $nombreCompleto);
+
+        $nombre = $partes[0] . " " . $partes[1];
+
+        $primerApellido = $partes[2];
+
+        $segundoApellido = $partes[3];
+
+        $iniciales = "";
+        foreach ($partes as $palabra) {
+            $iniciales .= strtoupper($palabra[0]) . ".";
+        }
+
+        echo "<strong>Nombre completo</strong>: $nombreCompleto<br>";
+        echo "<strong>Nombre</strong>: $nombre<br>";
+        echo "<strong>Primer apellido</strong>: $primerApellido<br>";
+        echo "<strong>Segundo apellido</strong>: $segundoApellido<br>";
+        echo "<strong>Iniciales</strong>: $iniciales";
         ?>
     </body>
 

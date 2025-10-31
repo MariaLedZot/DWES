@@ -25,7 +25,18 @@ code: https://github.com/
 
     <body>
         <?php
-        
+        $email = "mledzot325@g.educaand.es";
+        list($usuario, $dominio) = explode("@", $email);
+
+        $usuarioEnmascarado = $usuario;
+        if (strlen($usuario) >= 3) {
+            $usuarioEnmascarado = $usuario[0] . str_repeat("*", strlen($usuario) - 2) . $usuario[strlen($usuario) - 1];
+        }
+
+        echo "<strong>Email</strong>: $email<br>";
+        echo "<strong>Usuario</strong>: $usuario<br>";
+        echo "<strong>Dominio</strong>: $dominio<br>";
+        echo "<strong>Usuario enmascarado</strong>: $usuarioEnmascarado";
         ?>
     </body>
 

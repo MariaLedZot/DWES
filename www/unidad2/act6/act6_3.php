@@ -25,7 +25,15 @@ code: https://github.com/
 
     <body>
         <?php
-        
+        $texto = "PHP es fantástico. Con PHP puedes construir sitios dinámicos. PHP mola.";
+        $termino = "PHP";
+
+        $patron = '/' . preg_quote($termino, '/') . '/';
+        $textoResaltado = preg_replace($patron, "<mark>$termino</mark>", $texto);
+
+        echo "<strong>Texto</strong>: $texto<br>";
+        echo "<strong>Término</strong>: $termino<br>";
+        echo "<strong>Resultado</strong>: $textoResaltado";
         ?>
     </body>
 

@@ -24,9 +24,9 @@ code: https://github.com/
     </head>
 
     <body>
-        <?php
-        
-        ?>
+        <?php include 'header.php'; ?>
+        <p>Bienvenido a la página principal de mi mini sitio.</p>
+        <?php include 'footer.php'; ?>
     </body>
 
 </html>

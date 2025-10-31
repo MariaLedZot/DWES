@@ -25,7 +25,11 @@ code: https://github.com/
 
     <body>
         <?php
-        
+        $url = "http://www.linkfred.com/carpeta1/index.php";
+        $archivo = basename(parse_url($url, PHP_URL_PATH));
+
+        echo "<strong>URL</strong>: $url<br>";
+        echo "$archivo";
         ?>
     </body>
 
