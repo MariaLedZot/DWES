@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 3: Resaltar coincidencias en un texto.
 desc: Busca un término en el texto con strpos y lo rodea con <mark> usando substr para reconstruir.
-tags: [PHP]
+tags: [PHP, strpos, substr]
 code: https://github.com/
 ---
 */

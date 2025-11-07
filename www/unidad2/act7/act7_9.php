@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 9: Contador por referencia.
 desc: Incrementa un contador de visitas pasando el parámetro por referencia y muestra el total.
-tags: [PHP]
+tags: [PHP, Paso por referencia, funciones, incremento]
 code: https://github.com/
 ---
 */

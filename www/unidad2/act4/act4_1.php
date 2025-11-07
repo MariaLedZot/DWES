@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 1: Altura Media de Personas.
 desc: Script PHP que calcula la altura media de un grupo de personas, muestra sus nombres y alturas en una tabla, e identifica a la persona más alta.
-tags: [PHP]
+tags: [PHP, foreach, array_search]
 code: https://github.com/
 ---
 */

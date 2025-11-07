@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 6: Minisitio Web.
 desc: Dividir sitio en varios ficheros ( header.php, footer.php,..).
-tags: [PHP]
+tags: [PHP, require]
 code: https://github.com/
 ---
 */

@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 6: Rotación de un Array.
 desc: Script PHP que genera un array de 10 números aleatorios entre 1 y 100, guarda una copia del original y luego rota el array moviendo el último elemento a la primera posición. Finalmente muestra ambos arrays.
-tags: [PHP]
+tags: [PHP, array_pop, array_unshift, arrays]
 code: https://github.com/
 ---
 */

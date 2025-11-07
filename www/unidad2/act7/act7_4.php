@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 4: Máximo con parámetros variables.
 desc: Implementa una función que devuelve el mayor de una lista de números.
-tags: [PHP]
+tags: [PHP, parámetros variables, bucles]
 code: https://github.com/
 ---
 */

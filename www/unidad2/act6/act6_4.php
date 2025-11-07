@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 4: Partes de un email y enmascarado del usuario.
 desc: Separa usuario y dominio con strpos+substr; enmascara el usuario dejando visible primera y última letra.
-tags: [PHP]
+tags: [PHP, strpos, substr, strlen]
 code: https://github.com/
 ---
 */

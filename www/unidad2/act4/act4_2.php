@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 2: Listado de Personas.
 desc: Script PHP que utiliza un array bidimensional para almacenar nombre, altura y email de varias personas, y muestra estos datos en una tabla HTML mediante un bucle foreach.
-tags: [PHP]
+tags: [PHP, array bidimensional, foreach, echo, HTML]
 code: https://github.com/
 ---
 */

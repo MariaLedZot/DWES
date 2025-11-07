@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 10: Función flecha con cierre (IVA).
 desc: Usa una function flecha que captura $iva para calcular el precio final de varios importes.
-tags: [PHP]
+tags: [PHP, función flecha, variables-externas]
 code: https://github.com/
 ---
 */

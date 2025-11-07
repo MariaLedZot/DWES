@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 4: Media de Números Aleatorios.
 desc: Script PHP que genera tres números aleatorios entre 0 y 100, calcula su media y muestra el resultado en pantalla utilizando printf.
-tags: [PHP]
+tags: [PHP, range, array_rand, variables, printf]
 code: https://github.com/
 ---
 */

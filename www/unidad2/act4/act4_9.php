@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 9: Búsqueda de Emoji en un Grupo.
 desc: Script PHP que genera entre 5 y 10 emojis aleatorios, los muestra en un grupo y luego selecciona un emoji adicional al azar para comprobar si está dentro del grupo.
-tags: [PHP]
+tags: [PHP, foreach, in_array, Unicode]
 code: https://github.com/
 ---
 */

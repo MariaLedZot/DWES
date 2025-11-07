@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 2: Formulario Web y Cookies.
 desc: Implementa un banner de cookies que permita aceptar o borrar cookies usando un formulario.
-tags: [PHP]
+tags: [PHP, formulario, cookies, banner]
 code: https://github.com/
 ---
 */

@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 8: Bolas Aleatorias y Eliminación de Duplicados.
 desc: Script PHP que genera entre 5 y 15 bolas aleatorias representadas por códigos Unicode, las muestra en pantalla y luego elimina duplicados, indicando cuántas bolas distintas hay.
-tags: [PHP]
+tags: [PHP, rand, foreach, array_unique, Unicode]
 code: https://github.com/
 ---
 */

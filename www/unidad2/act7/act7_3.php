@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 3: Filtrar mayores que 10.
 desc: Usa array_filter con una función callback para quedarse solo con los valores > 10; imprime original y filtrado.
-tags: [PHP]
+tags: [PHP, arrays, funciones]
 code: https://github.com/
 ---
 */

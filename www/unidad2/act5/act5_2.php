@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 2: Empleados Activos en Tabla.
 desc: Filtra un listado de empleados para mostrar solo los que están en estado activo dentro de una tabla HTML.
-tags: [PHP]
+tags: [PHP, array_filter, foreach, html-table]
 code: https://github.com/
 ---
 */

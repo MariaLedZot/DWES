@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 1: Longitud de comentario (SMS 160).
 desc: Mide la longitud del texto y muestra cuántos caracteres faltan o sobran respecto a 160.
-tags: [PHP]
+tags: [PHP, strlen]
 code: https://github.com/
 ---
 */

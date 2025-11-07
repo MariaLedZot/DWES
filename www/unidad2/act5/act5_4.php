@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 4: Validación de Formulario — Campos Faltantes.
 desc: Compara los campos obligatorios de un formulario con los datos enviados por el usuario y lista los que faltan.
-tags: [PHP]
+tags: [PHP, array_diff_key, forms, validation, foreach]
 code: https://github.com/
 ---
 */

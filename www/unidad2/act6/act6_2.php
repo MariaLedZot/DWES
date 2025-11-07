@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 2: Partes del nombre e iniciales (soporta nombre compuesto).
 desc: Toma los dos últimos tokens como apellidos y el resto como nombre; también calcula las iniciales.
-tags: [PHP]
+tags: [PHP, explode, implode, substr]
 code: https://github.com/
 ---
 */

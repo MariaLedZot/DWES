@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 11: Cartas.
 desc: Generar cartas aleatorias.
-tags: [PHP]
+tags: [PHP, funciones, concatenar, imágenes]
 code: https://github.com/
 ---
 */

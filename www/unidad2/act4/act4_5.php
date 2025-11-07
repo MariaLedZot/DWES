@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 5: Cálculo de Precios con IVA.
 desc: Script PHP que muestra una tabla de productos con su precio sin IVA, tipo de IVA aplicado y precio final con IVA. Utiliza arrays para almacenar productos y tipos de IVA, y un bucle foreach para generar las filas de la tabla.
-tags: [PHP]
+tags: [PHP, array, foreach, number_format]
 code: https://github.com/
 ---
 */

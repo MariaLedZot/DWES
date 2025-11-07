@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 1: Control de errores.
 desc: Muestra información del sistema y gestiona errores de forma controlada.
-tags: [PHP]
+tags: [PHP, errores, excepciones, menejo]
 code: https://github.com/
 ---
 */

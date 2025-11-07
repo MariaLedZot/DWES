@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 8: División con valor por defecto y control de errores.
 desc: Implementa dividir(num, divisor) con manejo de división por cero.
-tags: [PHP]
+tags: [PHP, parametros-por-defecto, manejo-errores, tipos dobles, valor por defecto]
 code: https://github.com/
 ---
 */

@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 5: Filtrar Productos por Precio.
 desc: Muestra solo los productos cuyo precio supera un umbral (p. ej., 20 €) y los presenta en una tabla HTML.
-tags: [PHP]
+tags: [PHP, array_filter, foreach]
 code: https://github.com/
 ---
 */

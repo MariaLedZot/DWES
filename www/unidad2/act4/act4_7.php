@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 7: Números Pares e Impares con Colores.
 desc: Script PHP que genera 10 números aleatorios entre 1 y 100 y los muestra en una tabla. Los números pares se muestran en azul y los impares en rojo utilizando estilos en línea.
-tags: [PHP]
+tags: [PHP, rand, foreach, if, estilos, colores]
 code: https://github.com/
 ---
 */

@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 2: Array aleatorio (rango y tamaño).
 desc: Genera un array de tamaño dado con enteros aleatorios entre un mínimo y un máximo y lo muestra.
-tags: [PHP]
+tags: [PHP, arrays, aleatorio, funciones]
 code: https://github.com/
 ---
 */

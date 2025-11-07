@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 3: Participantes Comunes en Dos Actividades.
 desc: Obtiene las personas que aparecen en ambas listas de inscritos a partir de la intersección de arrays y las muestra.
-tags: [PHP]
+tags: [PHP, array_intersect, foreach]
 code: https://github.com/
 ---
 */

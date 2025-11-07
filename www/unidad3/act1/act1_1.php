@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 1: Formulario Web.
 desc: Muestra y controla datos de un formulario web.
-tags: [PHP]
+tags: [PHP, formulario, POST, empty()]
 code: https://github.com/
 ---
 */

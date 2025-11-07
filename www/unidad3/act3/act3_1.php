@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 1: Uso de sesiones para votaciones.
 desc: Implementa un sistema de votación simple utilizando sesiones para almacenar los votos. Muestra los resultados con barras de progreso.
-tags: [PHP]
+tags: [PHP, votación, sesiones, progreso]
 code: https://github.com/
 ---
 */

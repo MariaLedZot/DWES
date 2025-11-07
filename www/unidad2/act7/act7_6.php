@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 6: Librería de operaciones básicas.
 desc: Define funciones para sumar, restar, multiplicar y dividir enteros (con intdiv en la división).
-tags: [PHP]
+tags: [PHP, funciones, aritmética]
 code: https://github.com/
 ---
 */

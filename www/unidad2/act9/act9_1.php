@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 1: Gestión de Comentarios con Ficheros.
 desc: Controla comentarios sin base de datos, usando ficheros.
-tags: [PHP]
+tags: [PHP, comentarios, ficheros, menejo]
 code: https://github.com/
 ---
 */

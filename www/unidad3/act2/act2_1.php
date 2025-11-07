@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 1: Formulario Web y Cookies.
 desc: Modifica el color de fondo de una página web usando un formulario y cookies.
-tags: [PHP]
+tags: [PHP, formulario, cookies, color]
 code: https://github.com/
 ---
 */

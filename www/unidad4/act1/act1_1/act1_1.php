@@ -1,4 +1,13 @@
 <?php
+/*
+---
+title: Ejercicio 1: Gestión de pedidos.
+desc: Crear un sistema de gestión de pedidos que permita a los usuarios realizar pedidos de productos físicos y digitales.
+tags: [PHP, pedidos, productos, gestión]
+code: https://github.com/
+---
+*/
+
 require_once __DIR__ . '/app/Interfaces/ResumenInterface.php';
 require_once __DIR__ . '/app/Models/Producto.php';
 require_once __DIR__ . '/app/Models/ProductoFisico.php';

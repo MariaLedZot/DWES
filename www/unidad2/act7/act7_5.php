@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 5: Dígito en posición n.
 desc: Devuelve el dígito que ocupa una posición concreta dentro de un número y lo muestra.
-tags: [PHP]
+tags: [PHP, strings, indices, funciones]
 code: https://github.com/
 ---
 */

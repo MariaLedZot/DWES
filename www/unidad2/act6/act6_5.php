@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 5: Extraer nombre de fichero.
 desc: Divide la ruta por '/' y devuelve el último segmento no vacío (el nombre del fichero).
-tags: [PHP]
+tags: [PHP, explode]
 code: https://github.com/
 ---
 */

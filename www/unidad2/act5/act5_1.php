@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 1: Catálogo Unificado de Productos.
 desc: Une dos listas de productos de distintos proveedores, elimina duplicados, ordena alfabéticamente y muestra el resultado.
-tags: [PHP]
+tags: [PHP, array_merge, array_unique, sort, foreach]
 code: https://github.com/
 ---
 */

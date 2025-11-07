@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 10: Tirada y Ordenación de Dados.
 desc: Script PHP que genera entre 2 y 7 dados con valores aleatorios entre 1 y 6, muestra las imágenes correspondientes a cada tirada y luego ordena los dados para mostrarlos nuevamente en orden ascendente.
-tags: [PHP]
+tags: [PHP, foreach, sort, imágenes, arrays]
 code: https://github.com/
 ---
 */

@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 1: Par o impar con función.
 desc: Determina si un número es par usando una función y operador ternario; muestra el resultado.
-tags: [PHP]
+tags: [PHP, modulo, funciones, ternario]
 code: https://github.com/
 ---
 */

@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 3: Conteo de Sexo Aleatorio.
 desc: Script PHP que genera aleatoriamente el sexo (M o F) de 5 personas, los muestra en una tabla numerada y cuenta cuántos hombres y mujeres hay utilizando un array contador.
-tags: [PHP]
+tags: [PHP, rand, foreach, array, contador]
 code: https://github.com/
 ---
 */

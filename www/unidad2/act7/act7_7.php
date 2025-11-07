@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 7: Llamada dinámica a operaciones.
 desc: Importa las funciones de la librería y las ejecuta dinámicamente por nombre sobre dos números, mostrando cada resultado.
-tags: [PHP]
+tags: [PHP, require_once, funciones dinámicas, foreach]
 code: https://github.com/
 ---
 */

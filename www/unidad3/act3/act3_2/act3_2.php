@@ -3,7 +3,7 @@
 ---
 title: Ejercicio 2: Login sencillo con sesiones.
 desc: Crea un sistema de login básico utilizando sesiones para gestionar el acceso de usuarios. Muestra mensajes de error para credenciales incorrectas.
-tags: [PHP]
+tags: [PHP, login, sesiones, autenticación]
 code: https://github.com/
 ---
 */
